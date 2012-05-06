@@ -1,0 +1,25 @@
+PSSH is a really greate open source project which helps me a lot with my
+distribute workds. You can find the instruction below in Parallel-ssh's google
+code page:
+
+PSSH provides parallel versions of OpenSSH and related tools. Included are pssh,
+pscp, prsync, pnuke, and pslurp. The project includes psshlib which can be used
+within custom applications. The source code is written in Python and can be cloned
+from: git clone git://aml.cs.byu.edu/pssh.git
+
+Now I modified this project, removed some parts and that makes this Insecure-pssh.
+In this version, you can write password in your hosts.txt, it is useful when your 
+servers are not set with only one password. But it is not safe to use. 
+This version only contains pssh, pscp and pslurp. I've test these codes in Arch Linux
+and Centos 5.5 with python 2.7. Please report bugs or help me to improve this insecure
+one.
+Remember! It is INSECURE! You must take RISK by yourself!
+
+Parallel-SSH pages:
+http://code.google.com/p/parallel-ssh/
+https://github.com/robinbowes/pssh
+
+Contact me if you like:
+e-mail: me#knktc.com (replace the # wich @)
+or visit my website:
+http://www.knktc.com (sorry, it is only Chinese pages)
