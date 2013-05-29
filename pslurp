@@ -85,7 +85,8 @@ def do_pslurp(hosts, remote, local, opts):
             localpath = "%s/%s/%s" % (opts.localdir, host, local)
         else:
             localpath = "%s/%s" % (host, local)
-        cmd = ['scp', '-qC']
+        cmd = ['scp', '-qC', '-o',
+                'StrictHostKeyChecking=no']
         if opts.options:
             for opt in opts.options:
                 cmd += ['-o', opt]
